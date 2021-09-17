@@ -23,14 +23,14 @@ export const heroes = [
         'first_appearance':'Flash Comics #1',
         'characters':'Jay Garrick, Barry Allen, Wally West, Bart Allen'
     },
-    {
+    /* {
         'id': 'dc-green',
         'superhero':'Green Lantern', 
         'publisher':'DC Comics', 
         'alter_ego':'Alan Scott',
         'first_appearance':'All-American Comics #16',
         'characters':'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz'
-    },
+    }, */
     {
         'id': 'dc-arrow',
         'superhero':'Green Arrow', 
@@ -131,7 +131,7 @@ export const heroes = [
         'id': 'marvel-daredevil',
         'superhero':'Daredevil', 
         'publisher':'Marvel Comics', 
-        'alter_ego':'Matthew Michael Murdock',
+        'alter_ego':'Matthew Murdock',
         'first_appearance':'Daredevil #1',
         'characters':'Matthew Michael Murdock'
     },
@@ -139,7 +139,7 @@ export const heroes = [
         'id': 'marvel-hawkeye',
         'superhero':'Hawkeye', 
         'publisher':'Marvel Comics', 
-        'alter_ego':'Clinton Francis Barton',
+        'alter_ego':'Clinton Barton',
         'first_appearance':'Tales of Suspense #57',
         'characters':'Clinton Francis Barton'
     },
@@ -150,13 +150,13 @@ export const heroes = [
         'alter_ego':'Scott Summers',
         'first_appearance':'X-Men #1',
         'characters':'Scott Summers'
-    },
-    {
+    }
+    /* {
         'id': 'marvel-silver',
         'superhero':'Silver Surfer', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Norrin Radd',
         'first_appearance':'The Fantastic Four #48',
         'characters':'Norrin Radd'
-    }
+    } */
 ]

@@ -25,13 +25,13 @@ export const SearchScreen = ({ history }) => {
 
     return (
         <div>
-            <h1>Search Screen</h1>
+            <h1>SEARCH HEROES</h1>
             <hr />
             
-            <div className="row">
+            <div id="search" className="row animate__animated animate__fadeIn">
                 
                 <div className="col-5">
-                    <h4> Search Form </h4>
+                    <h4> Search </h4>
                     <hr />
 
                     <form onSubmit={ handleSearch }>
@@ -47,7 +47,7 @@ export const SearchScreen = ({ history }) => {
 
                         <button
                             type="submit"
-                            className="btn m-1 btn-block btn-outline-primary"
+                            className="btn m-1 btn-block btn-outline-danger"
                         >
                             Search...
                         </button>
@@ -65,7 +65,7 @@ export const SearchScreen = ({ history }) => {
                     { 
                         (q ==='') 
                             && 
-                            <div className="alert alert-info">
+                            <div className="alert alert-danger">
                                 Search a hero
                             </div>
                     }

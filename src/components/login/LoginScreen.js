@@ -13,7 +13,7 @@ export const LoginScreen = ({ history }) => {
         dispatch({
             type: types.login,
             payload: {
-                name: 'Fernando'
+                name: 'Hernan'
             }
         });
 
@@ -27,7 +27,7 @@ export const LoginScreen = ({ history }) => {
             <hr />
 
             <button
-                className="btn btn-primary"
+                className="btn btn-danger"
                 onClick={ handleLogin }
             >
                 Login

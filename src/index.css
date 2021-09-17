@@ -1,0 +1,136 @@
+body{
+    background-color: #ddd;
+    font-family: 'Abril Fatface', cursive;
+}
+#logo{
+    width: 50px;
+}
+
+.contenedor{
+    margin-right: 10%;
+    margin-left: 10% ;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(46, 44, 44);
+    letter-spacing: 4px;
+    
+
+}
+h4, h3{
+    text-align: center;
+   padding: 10px;
+    color: white;
+    background-color: #121212;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+}
+
+#search{
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 400px;
+    border-radius: 8px;
+}
+#card-hero{
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    box-shadow: 2px 2px 8px #ccc;
+
+}
+
+#cards h5{
+    background-color: #121212;
+    color: white;
+    padding-top: 10px;
+}
+
+#cards:hover{
+    transform: scale(1.06);
+}
+
+#img-card{
+    height: 100%;
+} 
+.tarjetas{
+    overflow: hidden;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #121212;
+    
+    
+}
+.tarjetas .imagenes{
+    height: 220px;
+    width: 290px;
+}
+.tarjetas .card-datos{
+    
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.tarjetas .link{
+    margin-top: 25px;
+    
+}
+.tarjetas .link a{
+    color: red;
+}
+#cards > div > div.card-datos > p:nth-child(2){
+    margin-top: 20px;
+}
+
+#titulo-tarjeta{
+    background-color:red;
+}
+
+.barra-nav{
+    display: flex;
+    background-color: #121212;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.barra-nav .nav1{
+    display: flex;
+    
+}
+.barra-nav .nav2{
+    display: flex;
+}
+.barra-nav .nav1 h2{
+    color: white;
+}
+.barra-nav .nav2 a{
+    color: white;
+    transition: 20ms;
+}
+.barra-nav .nav2 button{
+    color: white;
+    transition: 20ms;
+}
+
+.barra-nav .nav2 a:hover{
+    transform: scale(1.1);
+}
+
+.barra-nav .nav2 button:hover{
+    transform: scale(1.1);
+}
+
+
