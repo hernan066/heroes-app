@@ -3,8 +3,8 @@ import { useParams, Redirect } from 'react-router-dom';
 import { heroImages } from '../../helpers/heroImages';
 import { getHeroById } from '../../selectors/getHeroById';
 
-//import batman from '../../assets/heroes/dc-batman.jpg'; // estático
-//const heroImages = require.context('../../assets/heroes', true );
+// import batman from '../../assets/heroes/dc-batman.jpg'; // estático
+// const heroImages = require.context('../../assets/heroes', true );
 
 
 
@@ -41,9 +41,7 @@ export const HeroScreen = ({ history }) => {
         <div className="row mt-5">
             <div className="col-4">
                 <img 
-                     
-                     //<img src={require('./logo.jpeg')} />
-                     //src={ require(`../../assets/heroes/dc-batman.jpg`) } // desde public/assets
+                    // src={ `../assets/heroes/${ heroeId }.jpg` } // desde public/assets
                     // src={ batman } // import
                     src={ heroImages(`./${ heroeId }.jpg`) }
                     alt={ superhero }
