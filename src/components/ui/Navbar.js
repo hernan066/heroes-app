@@ -1,12 +1,11 @@
 import React, { useContext } from 'react';
-//import { Link, NavLink, useHistory } from 'react-router-dom';
-//import { AuthContext } from '../../auth/AuthContext';
-//import { types } from '../../types/types';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useHistory } from 'react-router-dom';
+import { AuthContext } from '../../auth/AuthContext';
+import { types } from '../../types/types';
 
 export const Navbar = () => {
 
-    /* const { user:{ name }, dispatch } = useContext(AuthContext);
+    const { user:{ name }, dispatch } = useContext(AuthContext);
     const history = useHistory();
 
     const handleLogout = () => {
@@ -16,7 +15,7 @@ export const Navbar = () => {
         dispatch({
             type: types.logout
         });
-    } */
+    }
 
 
     return (
@@ -65,12 +64,12 @@ export const Navbar = () => {
                 <ul className="navbar-nav ml-auto">
 
                     <span className="nav-item nav-link text-info"> 
-                      {/*   { name } */}
+                        { name }
                     </span>
 
                     <button 
                         className="nav-item nav-link btn"
-                       /*  onClick={ handleLogout } */
+                        onClick={ handleLogout }
                     > 
                         Logout
                     </button>
